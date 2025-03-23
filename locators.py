@@ -29,8 +29,8 @@ class Locators: # Локаторы для регистрации
     #Локаторы для перехода по разделам
     SCROLL_ELEMENT = (By.XPATH, "//p[@class='BurgerIngredient_ingredient__text__yp3dH' and text()='Сыр с астероидной плесенью']")
     BUNS_BNT = (By.XPATH, "//span[text()='Булки']")
-    BUNS_ELEMENT = (By.XPATH, "//h2[text()='Булки']")
+    BUNS_ACTIVE_TAB = (By.XPATH, "//div[contains(@class, 'tab_tab_type_current__2BEPc')]/span[text()='Булки']")
     SAUCES_BNT = (By.XPATH, "//span[text()='Соусы']")
-    SAUCES_ELEMENT = (By.XPATH, "//h2[text()='Соусы']")
+    SAUCES_ACTIVE_TAB = (By.XPATH, "//div[contains(@class, 'tab_tab_type_current__2BEPc')]/span[text()='Соусы']")
     TOPPINGS_BNT = (By.XPATH, "//span[text()='Начинки']")
-    TOPPINGS_ELEMENT = (By.XPATH, "//h2[text()='Начинки']")
+    TOPPINGS_ACTIVE_TAB = (By.XPATH, "//div[contains(@class, 'tab_tab_type_current__2BEPc')]/span[text()='Начинки']")
